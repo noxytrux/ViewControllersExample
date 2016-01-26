@@ -19,6 +19,7 @@
 		042683721C567FC300CDEEE1 /* VCESplitRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683711C567FC300CDEEE1 /* VCESplitRootViewController.m */; };
 		042683751C5684A300CDEEE1 /* VCESplitDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683741C5684A300CDEEE1 /* VCESplitDetailViewController.m */; };
 		04D3ADFA1C56A782008B0295 /* VCEPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3ADF91C56A782008B0295 /* VCEPageViewController.m */; };
+		807E57AB1C577755002B12B6 /* VCECollectionViewControlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57AA1C577755002B12B6 /* VCECollectionViewControlerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		042683741C5684A300CDEEE1 /* VCESplitDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCESplitDetailViewController.m; sourceTree = "<group>"; };
 		04D3ADF81C56A782008B0295 /* VCEPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCEPageViewController.h; sourceTree = "<group>"; };
 		04D3ADF91C56A782008B0295 /* VCEPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCEPageViewController.m; sourceTree = "<group>"; };
+		807E57A91C577755002B12B6 /* VCECollectionViewControlerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCECollectionViewControlerViewController.h; sourceTree = "<group>"; };
+		807E57AA1C577755002B12B6 /* VCECollectionViewControlerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCECollectionViewControlerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				042683531C566F0800CDEEE1 /* VCEViewController.m */,
 				04D3ADF81C56A782008B0295 /* VCEPageViewController.h */,
 				04D3ADF91C56A782008B0295 /* VCEPageViewController.m */,
+				807E57A91C577755002B12B6 /* VCECollectionViewControlerViewController.h */,
+				807E57AA1C577755002B12B6 /* VCECollectionViewControlerViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 				042683691C56736800CDEEE1 /* VCEModalViewController.m in Sources */,
 				042683751C5684A300CDEEE1 /* VCESplitDetailViewController.m in Sources */,
 				042683651C5670B700CDEEE1 /* VCEBlueViewController.m in Sources */,
+				807E57AB1C577755002B12B6 /* VCECollectionViewControlerViewController.m in Sources */,
 				0426834E1C566F0800CDEEE1 /* main.m in Sources */,
 				042683721C567FC300CDEEE1 /* VCESplitRootViewController.m in Sources */,
 			);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wH7-dC-fh8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wH7-dC-fh8">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -25,7 +25,7 @@
         <!--View Controller-->
         <scene sceneID="vbq-aN-T30">
             <objects>
-                <viewController id="Igp-Xk-MJz" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="Igp-Xk-MJz" customClass="VCEViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eaY-IE-SPs"/>
                         <viewControllerLayoutGuide type="bottom" id="wu7-aq-4K9"/>
@@ -49,7 +49,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -74,6 +74,7 @@
                         <segue destination="IQv-K4-se2" kind="show" identifier="TabBarDetail" id="TLy-Fg-9ib"/>
                         <segue destination="KFw-yU-O8d" kind="presentation" identifier="SplitDetail" modalPresentationStyle="fullScreen" id="Fv0-xf-ssf"/>
                         <segue destination="ubc-D6-lKg" kind="show" identifier="PageDetail" id="ylc-CW-2TB"/>
+                        <segue destination="Ob5-bT-H9f" kind="show" identifier="CollectionDetail" id="d9X-g9-fb9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uSm-gM-27h" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -155,7 +156,7 @@
         <!--Split Detail View Controller-->
         <scene sceneID="Tqu-Fb-og8">
             <objects>
-                <viewController id="Mdz-iW-cQg" customClass="SplitDetailViewController" sceneMemberID="viewController">
+                <viewController id="Mdz-iW-cQg" customClass="VCESplitDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vu9-v9-Ucw"/>
                         <viewControllerLayoutGuide type="bottom" id="SQM-Tr-utQ"/>
@@ -167,7 +168,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDu-Eb-vqi">
                                 <rect key="frame" x="139" y="273" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -188,7 +189,7 @@
         <!--Root View Controller-->
         <scene sceneID="YPu-dE-mVO">
             <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="Bvh-n8-d5n" customClass="SplitRootViewController" sceneMemberID="viewController">
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="Bvh-n8-d5n" customClass="VCESplitRootViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="hLy-hx-3oL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -205,7 +206,7 @@
                                             <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -245,15 +246,33 @@
         <!--Page Controller-->
         <scene sceneID="rf2-OO-kdx">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" title="Page Controller" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="ubc-D6-lKg" customClass="PageViewController" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" title="Page Controller" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="ubc-D6-lKg" customClass="VCEPageViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="biv-fo-DW2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="883" y="1719"/>
         </scene>
+        <!--Collection View Controler View Controller-->
+        <scene sceneID="GhD-ei-wfc">
+            <objects>
+                <viewController id="Ob5-bT-H9f" customClass="VCECollectionViewControlerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cdw-RG-NnY"/>
+                        <viewControllerLayoutGuide type="bottom" id="SsG-1G-lk0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bDL-NZ-UMU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zFi-jf-s7I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="781" y="2353"/>
+        </scene>
         <!--Split Controller-->
         <scene sceneID="NpP-Dc-ews">
             <objects>
-                <splitViewController title="Split Controller" id="KFw-yU-O8d" customClass="SplitViewController" sceneMemberID="viewController">
+                <splitViewController title="Split Controller" id="KFw-yU-O8d" customClass="VCESplitViewController" sceneMemberID="viewController">
                     <connections>
                         <segue destination="6cU-4M-xTu" kind="relationship" relationship="masterViewController" id="4JN-Ow-CN3"/>
                         <segue destination="Mdz-iW-cQg" kind="relationship" relationship="detailViewController" id="yA9-F7-Dg7"/>
