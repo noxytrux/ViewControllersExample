@@ -6,14 +6,14 @@
 //  Copyright © 2016 Marcin Małysz. All rights reserved.
 //
 
-#import "PageViewController.h"
+#import "VCEPageViewController.h"
 
-@interface PageViewController () <UIPageViewControllerDataSource>
+@interface VCEPageViewController () <UIPageViewControllerDataSource>
 @property (nonatomic, strong) NSMutableArray *colorItems;
 @property (nonatomic, strong) NSMutableDictionary *cacheDictionary;
 @end
 
-@implementation PageViewController
+@implementation VCEPageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

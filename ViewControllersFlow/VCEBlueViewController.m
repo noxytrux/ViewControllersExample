@@ -6,14 +6,14 @@
 //  Copyright © 2016 Marcin Małysz. All rights reserved.
 //
 
-#import "BlueViewController.h"
-#import "ModalViewController.h"
+#import "VCEBlueViewController.h"
+#import "VCEModalViewController.h"
 
-@interface BlueViewController ()
+@interface VCEBlueViewController ()
 
 @end
 
-@implementation BlueViewController
+@implementation VCEBlueViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

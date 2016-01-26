@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ModalViewController : UIViewController
+@interface VCEModalViewController : UIViewController
 
 @end

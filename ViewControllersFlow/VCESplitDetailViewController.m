@@ -6,13 +6,13 @@
 //  Copyright © 2016 Marcin Małysz. All rights reserved.
 //
 
-#import "SplitDetailViewController.h"
+#import "VCESplitDetailViewController.h"
 
-@interface SplitDetailViewController ()
+@interface VCESplitDetailViewController ()
 
 @end
 
-@implementation SplitDetailViewController
+@implementation VCESplitDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

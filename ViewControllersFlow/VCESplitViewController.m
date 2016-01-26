@@ -6,13 +6,13 @@
 //  Copyright © 2016 Marcin Małysz. All rights reserved.
 //
 
-#import "SplitViewController.h"
+#import "VCESplitViewController.h"
 
-@interface SplitViewController () <UISplitViewControllerDelegate>
+@interface VCESplitViewController () <UISplitViewControllerDelegate>
 
 @end
 
-@implementation SplitViewController
+@implementation VCESplitViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

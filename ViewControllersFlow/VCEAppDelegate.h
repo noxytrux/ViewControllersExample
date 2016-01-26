@@ -1,5 +1,5 @@
 //
-//  SplitDetailViewController.h
+//  AppDelegate.h
 //  ViewControllersFlow
 //
 //  Created by Marcin Pędzimąż on 25.01.2016.
@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SplitDetailViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *detailInfoLabel;
+@interface VCEAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+
 @end
+
