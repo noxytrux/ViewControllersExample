@@ -94,6 +94,8 @@
 
     NSInteger index = viewController.view.tag;
     
+    [self manageNavigationBar:index];
+    
     index--;
     
     if (index < 0) {
@@ -107,6 +109,8 @@
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController {
 
     NSInteger index = viewController.view.tag;
+    
+    [self manageNavigationBar:index];
     
     index++;
     
@@ -128,6 +132,17 @@
     UIViewController *currentController = [pageViewController.viewControllers firstObject];
 
     return currentController.view.tag;
+}
+
+- (void)manageNavigationBar:(NSInteger)index {
+    
+    if (index == 0 || index == 9) {
+        [self.navigationController setNavigationBarHidden:NO];
+    }
+    else {
+        [self.navigationController setNavigationBarHidden:YES];
+    }
+
 }
 
 @end
