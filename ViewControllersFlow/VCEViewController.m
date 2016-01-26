@@ -24,7 +24,8 @@
     self.items = [[NSMutableArray alloc] initWithArray:@[ @"Detail VC",
                                                           @"TabBar Controller",
                                                           @"Page Controller",
-                                                          @"Split Controller"
+                                                          @"Split Controller",
+                                                          @"Detail Controller"
                                                          ]];
 }
 
@@ -70,7 +71,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
-    NSArray *segues = @[@"NormalDetail", @"TabBarDetail", @"PageDetail", @"SplitDetail"];
+    NSArray *segues = @[@"NormalDetail", @"TabBarDetail", @"PageDetail", @"SplitDetail" , @"CollectionDetail"];
 
     [self performSegueWithIdentifier:segues[indexPath.row]
                               sender:self];
