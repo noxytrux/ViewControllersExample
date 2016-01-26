@@ -6,13 +6,13 @@
 //  Copyright © 2016 Marcin Małysz. All rights reserved.
 //
 
-#import "ModalViewController.h"
+#import "VCEModalViewController.h"
 
-@interface ModalViewController ()
+@interface VCEModalViewController ()
 
 @end
 
-@implementation ModalViewController
+@implementation VCEModalViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

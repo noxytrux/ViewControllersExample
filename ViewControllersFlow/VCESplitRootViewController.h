@@ -1,5 +1,5 @@
 //
-//  PageViewController.h
+//  SplitRootViewController.h
 //  ViewControllersFlow
 //
 //  Created by Marcin Pędzimąż on 25.01.2016.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PageViewController : UIPageViewController
+@interface VCESplitRootViewController : UITableViewController
 
 @end

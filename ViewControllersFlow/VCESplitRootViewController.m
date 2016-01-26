@@ -6,14 +6,14 @@
 //  Copyright © 2016 Marcin Małysz. All rights reserved.
 //
 
-#import "SplitRootViewController.h"
-#import "SplitDetailViewController.h"
+#import "VCESplitRootViewController.h"
+#import "VCESplitDetailViewController.h"
 
-@interface SplitRootViewController ()
+@interface VCESplitRootViewController ()
 @property (nonatomic, strong) NSArray *items;
 @end
 
-@implementation SplitRootViewController
+@implementation VCESplitRootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
