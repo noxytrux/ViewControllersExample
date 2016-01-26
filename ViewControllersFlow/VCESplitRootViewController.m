@@ -66,7 +66,7 @@
     
     if ([segue.identifier isEqualToString:@"showSegue"] == YES) {
         
-        SplitDetailViewController *detail = (SplitDetailViewController*)segue.destinationViewController;
+        VCESplitDetailViewController *detail = (VCESplitDetailViewController*)segue.destinationViewController;
         
         __unused UIView *loadView = detail.view;
         
@@ -85,7 +85,7 @@
         return;
     }
     
-    SplitDetailViewController *detail = (SplitDetailViewController*)self.splitViewController.viewControllers.lastObject;
+    VCESplitDetailViewController *detail = (VCESplitDetailViewController*)self.splitViewController.viewControllers.lastObject;
     
     detail.detailInfoLabel.text = self.items[indexPath.row];
 }
