@@ -26,7 +26,7 @@
 
 - (IBAction)didPressShowModalView:(id)sender {
     
-    ModalViewController *modal = [[ModalViewController alloc] initWithNibName:nil bundle:nil];
+    VCEModalViewController *modal = [[VCEModalViewController alloc] initWithNibName:nil bundle:nil];
     UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:modal];
     
     if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
