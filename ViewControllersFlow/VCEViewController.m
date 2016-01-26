@@ -6,14 +6,14 @@
 //  Copyright © 2016 Marcin Małysz. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "VCEViewController.h"
 
-@interface ViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface VCEViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray *items;
 @end
 
-@implementation ViewController
+@implementation VCEViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

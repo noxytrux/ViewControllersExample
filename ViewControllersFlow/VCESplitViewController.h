@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SplitViewController.h
 //  ViewControllersFlow
 //
 //  Created by Marcin Pędzimąż on 25.01.2016.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface VCESplitViewController : UISplitViewController
 
 @end
-

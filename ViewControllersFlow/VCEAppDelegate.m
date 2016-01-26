@@ -6,13 +6,13 @@
 //  Copyright © 2016 Marcin Małysz. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "VCEAppDelegate.h"
 
-@interface AppDelegate ()
+@interface VCEAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation VCEAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

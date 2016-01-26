@@ -8,42 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		0426834E1C566F0800CDEEE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0426834D1C566F0800CDEEE1 /* main.m */; };
-		042683511C566F0800CDEEE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683501C566F0800CDEEE1 /* AppDelegate.m */; };
-		042683541C566F0800CDEEE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683531C566F0800CDEEE1 /* ViewController.m */; };
+		042683511C566F0800CDEEE1 /* VCEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683501C566F0800CDEEE1 /* VCEAppDelegate.m */; };
+		042683541C566F0800CDEEE1 /* VCEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683531C566F0800CDEEE1 /* VCEViewController.m */; };
 		042683571C566F0800CDEEE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042683551C566F0800CDEEE1 /* Main.storyboard */; };
 		042683591C566F0800CDEEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042683581C566F0800CDEEE1 /* Assets.xcassets */; };
 		0426835C1C566F0800CDEEE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0426835A1C566F0800CDEEE1 /* LaunchScreen.storyboard */; };
-		042683651C5670B700CDEEE1 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683641C5670B700CDEEE1 /* BlueViewController.m */; };
-		042683691C56736800CDEEE1 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683681C56736800CDEEE1 /* ModalViewController.m */; };
-		0426836C1C567EC100CDEEE1 /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0426836B1C567EC100CDEEE1 /* SplitViewController.m */; };
-		042683721C567FC300CDEEE1 /* SplitRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683711C567FC300CDEEE1 /* SplitRootViewController.m */; };
-		042683751C5684A300CDEEE1 /* SplitDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683741C5684A300CDEEE1 /* SplitDetailViewController.m */; };
-		04D3ADFA1C56A782008B0295 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3ADF91C56A782008B0295 /* PageViewController.m */; };
+		042683651C5670B700CDEEE1 /* VCEBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683641C5670B700CDEEE1 /* VCEBlueViewController.m */; };
+		042683691C56736800CDEEE1 /* VCEModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683681C56736800CDEEE1 /* VCEModalViewController.m */; };
+		0426836C1C567EC100CDEEE1 /* VCESplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0426836B1C567EC100CDEEE1 /* VCESplitViewController.m */; };
+		042683721C567FC300CDEEE1 /* VCESplitRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683711C567FC300CDEEE1 /* VCESplitRootViewController.m */; };
+		042683751C5684A300CDEEE1 /* VCESplitDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683741C5684A300CDEEE1 /* VCESplitDetailViewController.m */; };
+		04D3ADFA1C56A782008B0295 /* VCEPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3ADF91C56A782008B0295 /* VCEPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		042683491C566F0800CDEEE1 /* ViewControllersFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllersFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0426834D1C566F0800CDEEE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0426834F1C566F0800CDEEE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		042683501C566F0800CDEEE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		042683521C566F0800CDEEE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		042683531C566F0800CDEEE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0426834F1C566F0800CDEEE1 /* VCEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCEAppDelegate.h; sourceTree = "<group>"; };
+		042683501C566F0800CDEEE1 /* VCEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCEAppDelegate.m; sourceTree = "<group>"; };
+		042683521C566F0800CDEEE1 /* VCEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCEViewController.h; sourceTree = "<group>"; };
+		042683531C566F0800CDEEE1 /* VCEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCEViewController.m; sourceTree = "<group>"; };
 		042683561C566F0800CDEEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		042683581C566F0800CDEEE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0426835B1C566F0800CDEEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0426835D1C566F0800CDEEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		042683631C5670B700CDEEE1 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
-		042683641C5670B700CDEEE1 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		042683631C5670B700CDEEE1 /* VCEBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCEBlueViewController.h; sourceTree = "<group>"; };
+		042683641C5670B700CDEEE1 /* VCEBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCEBlueViewController.m; sourceTree = "<group>"; };
 		042683671C56736700CDEEE1 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
-		042683681C56736800CDEEE1 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
-		0426836A1C567EC100CDEEE1 /* SplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewController.h; sourceTree = "<group>"; };
-		0426836B1C567EC100CDEEE1 /* SplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewController.m; sourceTree = "<group>"; };
-		042683701C567FC300CDEEE1 /* SplitRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitRootViewController.h; sourceTree = "<group>"; };
-		042683711C567FC300CDEEE1 /* SplitRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitRootViewController.m; sourceTree = "<group>"; };
-		042683731C5684A300CDEEE1 /* SplitDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitDetailViewController.h; sourceTree = "<group>"; };
-		042683741C5684A300CDEEE1 /* SplitDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitDetailViewController.m; sourceTree = "<group>"; };
-		04D3ADF81C56A782008B0295 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
-		04D3ADF91C56A782008B0295 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		042683681C56736800CDEEE1 /* VCEModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCEModalViewController.m; sourceTree = "<group>"; };
+		0426836A1C567EC100CDEEE1 /* VCESplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCESplitViewController.h; sourceTree = "<group>"; };
+		0426836B1C567EC100CDEEE1 /* VCESplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCESplitViewController.m; sourceTree = "<group>"; };
+		042683701C567FC300CDEEE1 /* VCESplitRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCESplitRootViewController.h; sourceTree = "<group>"; };
+		042683711C567FC300CDEEE1 /* VCESplitRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCESplitRootViewController.m; sourceTree = "<group>"; };
+		042683731C5684A300CDEEE1 /* VCESplitDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCESplitDetailViewController.h; sourceTree = "<group>"; };
+		042683741C5684A300CDEEE1 /* VCESplitDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCESplitDetailViewController.m; sourceTree = "<group>"; };
+		04D3ADF81C56A782008B0295 /* VCEPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCEPageViewController.h; sourceTree = "<group>"; };
+		04D3ADF91C56A782008B0295 /* VCEPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCEPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				042683761C5684A900CDEEE1 /* ViewControllers */,
-				0426834F1C566F0800CDEEE1 /* AppDelegate.h */,
-				042683501C566F0800CDEEE1 /* AppDelegate.m */,
+				0426834F1C566F0800CDEEE1 /* VCEAppDelegate.h */,
+				042683501C566F0800CDEEE1 /* VCEAppDelegate.m */,
 				042683551C566F0800CDEEE1 /* Main.storyboard */,
 				042683581C566F0800CDEEE1 /* Assets.xcassets */,
 				0426835A1C566F0800CDEEE1 /* LaunchScreen.storyboard */,
@@ -99,20 +99,20 @@
 		042683761C5684A900CDEEE1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				042683731C5684A300CDEEE1 /* SplitDetailViewController.h */,
-				042683741C5684A300CDEEE1 /* SplitDetailViewController.m */,
-				0426836A1C567EC100CDEEE1 /* SplitViewController.h */,
-				0426836B1C567EC100CDEEE1 /* SplitViewController.m */,
-				042683701C567FC300CDEEE1 /* SplitRootViewController.h */,
-				042683711C567FC300CDEEE1 /* SplitRootViewController.m */,
-				042683631C5670B700CDEEE1 /* BlueViewController.h */,
-				042683641C5670B700CDEEE1 /* BlueViewController.m */,
+				042683731C5684A300CDEEE1 /* VCESplitDetailViewController.h */,
+				042683741C5684A300CDEEE1 /* VCESplitDetailViewController.m */,
+				0426836A1C567EC100CDEEE1 /* VCESplitViewController.h */,
+				0426836B1C567EC100CDEEE1 /* VCESplitViewController.m */,
+				042683701C567FC300CDEEE1 /* VCESplitRootViewController.h */,
+				042683711C567FC300CDEEE1 /* VCESplitRootViewController.m */,
+				042683631C5670B700CDEEE1 /* VCEBlueViewController.h */,
+				042683641C5670B700CDEEE1 /* VCEBlueViewController.m */,
 				042683671C56736700CDEEE1 /* ModalViewController.h */,
-				042683681C56736800CDEEE1 /* ModalViewController.m */,
-				042683521C566F0800CDEEE1 /* ViewController.h */,
-				042683531C566F0800CDEEE1 /* ViewController.m */,
-				04D3ADF81C56A782008B0295 /* PageViewController.h */,
-				04D3ADF91C56A782008B0295 /* PageViewController.m */,
+				042683681C56736800CDEEE1 /* VCEModalViewController.m */,
+				042683521C566F0800CDEEE1 /* VCEViewController.h */,
+				042683531C566F0800CDEEE1 /* VCEViewController.m */,
+				04D3ADF81C56A782008B0295 /* VCEPageViewController.h */,
+				04D3ADF91C56A782008B0295 /* VCEPageViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -187,15 +187,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042683541C566F0800CDEEE1 /* ViewController.m in Sources */,
-				0426836C1C567EC100CDEEE1 /* SplitViewController.m in Sources */,
-				04D3ADFA1C56A782008B0295 /* PageViewController.m in Sources */,
-				042683511C566F0800CDEEE1 /* AppDelegate.m in Sources */,
-				042683691C56736800CDEEE1 /* ModalViewController.m in Sources */,
-				042683751C5684A300CDEEE1 /* SplitDetailViewController.m in Sources */,
-				042683651C5670B700CDEEE1 /* BlueViewController.m in Sources */,
+				042683541C566F0800CDEEE1 /* VCEViewController.m in Sources */,
+				0426836C1C567EC100CDEEE1 /* VCESplitViewController.m in Sources */,
+				04D3ADFA1C56A782008B0295 /* VCEPageViewController.m in Sources */,
+				042683511C566F0800CDEEE1 /* VCEAppDelegate.m in Sources */,
+				042683691C56736800CDEEE1 /* VCEModalViewController.m in Sources */,
+				042683751C5684A300CDEEE1 /* VCESplitDetailViewController.m in Sources */,
+				042683651C5670B700CDEEE1 /* VCEBlueViewController.m in Sources */,
 				0426834E1C566F0800CDEEE1 /* main.m in Sources */,
-				042683721C567FC300CDEEE1 /* SplitRootViewController.m in Sources */,
+				042683721C567FC300CDEEE1 /* VCESplitRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
