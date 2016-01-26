@@ -20,6 +20,11 @@
 		042683751C5684A300CDEEE1 /* VCESplitDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683741C5684A300CDEEE1 /* VCESplitDetailViewController.m */; };
 		04D3ADFA1C56A782008B0295 /* VCEPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3ADF91C56A782008B0295 /* VCEPageViewController.m */; };
 		807E57AB1C577755002B12B6 /* VCECollectionViewControlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57AA1C577755002B12B6 /* VCECollectionViewControlerViewController.m */; };
+		807E57B71C578CBF002B12B6 /* VCERedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57B61C578CBF002B12B6 /* VCERedViewController.m */; };
+		807E57BA1C578D23002B12B6 /* VCEYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57B91C578D23002B12B6 /* VCEYellowViewController.m */; };
+		807E57BD1C578EAB002B12B6 /* VCETabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57BC1C578EAB002B12B6 /* VCETabBarViewController.m */; };
+		807E57C01C579333002B12B6 /* mountain.png in Resources */ = {isa = PBXBuildFile; fileRef = 807E57BE1C579333002B12B6 /* mountain.png */; };
+		807E57C11C579333002B12B6 /* treasure_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 807E57BF1C579333002B12B6 /* treasure_map.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +52,14 @@
 		04D3ADF91C56A782008B0295 /* VCEPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCEPageViewController.m; sourceTree = "<group>"; };
 		807E57A91C577755002B12B6 /* VCECollectionViewControlerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCECollectionViewControlerViewController.h; sourceTree = "<group>"; };
 		807E57AA1C577755002B12B6 /* VCECollectionViewControlerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCECollectionViewControlerViewController.m; sourceTree = "<group>"; };
+		807E57B51C578CBF002B12B6 /* VCERedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCERedViewController.h; sourceTree = "<group>"; };
+		807E57B61C578CBF002B12B6 /* VCERedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCERedViewController.m; sourceTree = "<group>"; };
+		807E57B81C578D23002B12B6 /* VCEYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCEYellowViewController.h; sourceTree = "<group>"; };
+		807E57B91C578D23002B12B6 /* VCEYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCEYellowViewController.m; sourceTree = "<group>"; };
+		807E57BB1C578EAB002B12B6 /* VCETabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCETabBarViewController.h; sourceTree = "<group>"; };
+		807E57BC1C578EAB002B12B6 /* VCETabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCETabBarViewController.m; sourceTree = "<group>"; };
+		807E57BE1C579333002B12B6 /* mountain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain.png; sourceTree = "<group>"; };
+		807E57BF1C579333002B12B6 /* treasure_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treasure_map.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +92,7 @@
 		0426834B1C566F0800CDEEE1 /* ViewControllersFlow */ = {
 			isa = PBXGroup;
 			children = (
+				807E57C21C5796A1002B12B6 /* Images */,
 				042683761C5684A900CDEEE1 /* ViewControllers */,
 				0426834F1C566F0800CDEEE1 /* VCEAppDelegate.h */,
 				042683501C566F0800CDEEE1 /* VCEAppDelegate.m */,
@@ -118,8 +132,23 @@
 				04D3ADF91C56A782008B0295 /* VCEPageViewController.m */,
 				807E57A91C577755002B12B6 /* VCECollectionViewControlerViewController.h */,
 				807E57AA1C577755002B12B6 /* VCECollectionViewControlerViewController.m */,
+				807E57B51C578CBF002B12B6 /* VCERedViewController.h */,
+				807E57B61C578CBF002B12B6 /* VCERedViewController.m */,
+				807E57B81C578D23002B12B6 /* VCEYellowViewController.h */,
+				807E57B91C578D23002B12B6 /* VCEYellowViewController.m */,
+				807E57BB1C578EAB002B12B6 /* VCETabBarViewController.h */,
+				807E57BC1C578EAB002B12B6 /* VCETabBarViewController.m */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		807E57C21C5796A1002B12B6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				807E57BE1C579333002B12B6 /* mountain.png */,
+				807E57BF1C579333002B12B6 /* treasure_map.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +209,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0426835C1C566F0800CDEEE1 /* LaunchScreen.storyboard in Resources */,
+				807E57C11C579333002B12B6 /* treasure_map.png in Resources */,
 				042683591C566F0800CDEEE1 /* Assets.xcassets in Resources */,
+				807E57C01C579333002B12B6 /* mountain.png in Resources */,
 				042683571C566F0800CDEEE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,8 +229,11 @@
 				042683511C566F0800CDEEE1 /* VCEAppDelegate.m in Sources */,
 				042683691C56736800CDEEE1 /* VCEModalViewController.m in Sources */,
 				042683751C5684A300CDEEE1 /* VCESplitDetailViewController.m in Sources */,
+				807E57BD1C578EAB002B12B6 /* VCETabBarViewController.m in Sources */,
+				807E57B71C578CBF002B12B6 /* VCERedViewController.m in Sources */,
 				042683651C5670B700CDEEE1 /* VCEBlueViewController.m in Sources */,
 				807E57AB1C577755002B12B6 /* VCECollectionViewControlerViewController.m in Sources */,
+				807E57BA1C578D23002B12B6 /* VCEYellowViewController.m in Sources */,
 				0426834E1C566F0800CDEEE1 /* main.m in Sources */,
 				042683721C567FC300CDEEE1 /* VCESplitRootViewController.m in Sources */,
 			);
