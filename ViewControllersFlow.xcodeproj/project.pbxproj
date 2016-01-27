@@ -24,13 +24,20 @@
 		807E57BD1C578EAB002B12B6 /* VCETabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57BC1C578EAB002B12B6 /* VCETabBarViewController.m */; };
 		807E57C01C579333002B12B6 /* mountain.png in Resources */ = {isa = PBXBuildFile; fileRef = 807E57BE1C579333002B12B6 /* mountain.png */; };
 		807E57C11C579333002B12B6 /* treasure_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 807E57BF1C579333002B12B6 /* treasure_map.png */; };
-		807E57C41C579DAE002B12B6 /* bg_cork.png in Resources */ = {isa = PBXBuildFile; fileRef = 807E57C31C579DAE002B12B6 /* bg_cork.png */; };
-		807E57C61C579F4E002B12B6 /* stare-tekstury-vintage-grunge_19-113524.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807E57C51C579F4E002B12B6 /* stare-tekstury-vintage-grunge_19-113524.jpg */; };
-		807E57C91C57A141002B12B6 /* VCECollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57C81C57A141002B12B6 /* VCECollectionViewController.m */; };
-		807E57CC1C57A3A7002B12B6 /* VCECollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57CB1C57A3A7002B12B6 /* VCECollectionViewCell.m */; };
 		807E57CF1C5848CB002B12B6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807E57CE1C5848CB002B12B6 /* MapKit.framework */; };
-		807E57D21C584CA5002B12B6 /* AdressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57D11C584CA5002B12B6 /* AdressAnnotation.m */; };
+		807E57D21C584CA5002B12B6 /* VCEAdressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57D11C584CA5002B12B6 /* VCEAdressAnnotation.m */; };
 		807E57D41C585339002B12B6 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 807E57D31C585339002B12B6 /* Locations.plist */; };
+		80B93C371C58C11400705531 /* VCECellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B93C361C58C11400705531 /* VCECellView.xib */; };
+		80B93C701C58DD3C00705531 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B93C6F1C58DD3C00705531 /* UIKit.framework */; };
+		80B93C791C58E03800705531 /* No1.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B93C711C58E03800705531 /* No1.png */; };
+		80B93C7A1C58E03800705531 /* No2.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B93C721C58E03800705531 /* No2.png */; };
+		80B93C7B1C58E03800705531 /* No3.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B93C731C58E03800705531 /* No3.png */; };
+		80B93C7C1C58E03800705531 /* No4.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B93C741C58E03800705531 /* No4.png */; };
+		80B93C7D1C58E03800705531 /* No5.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B93C751C58E03800705531 /* No5.png */; };
+		80B93C7E1C58E03800705531 /* No6.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B93C761C58E03800705531 /* No6.png */; };
+		80B93C7F1C58E03800705531 /* No7.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B93C771C58E03800705531 /* No7.png */; };
+		80B93C801C58E03800705531 /* No8.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B93C781C58E03800705531 /* No8.png */; };
+		80B93C831C58EB0200705531 /* VCECollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B93C821C58EB0200705531 /* VCECollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,16 +71,22 @@
 		807E57BC1C578EAB002B12B6 /* VCETabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCETabBarViewController.m; sourceTree = "<group>"; };
 		807E57BE1C579333002B12B6 /* mountain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain.png; sourceTree = "<group>"; };
 		807E57BF1C579333002B12B6 /* treasure_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treasure_map.png; sourceTree = "<group>"; };
-		807E57C31C579DAE002B12B6 /* bg_cork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_cork.png; sourceTree = "<group>"; };
-		807E57C51C579F4E002B12B6 /* stare-tekstury-vintage-grunge_19-113524.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stare-tekstury-vintage-grunge_19-113524.jpg"; sourceTree = "<group>"; };
-		807E57C71C57A141002B12B6 /* VCECollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCECollectionViewController.h; path = ../VCECollectionViewController.h; sourceTree = "<group>"; };
-		807E57C81C57A141002B12B6 /* VCECollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCECollectionViewController.m; path = ../VCECollectionViewController.m; sourceTree = "<group>"; };
-		807E57CA1C57A3A7002B12B6 /* VCECollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCECollectionViewCell.h; sourceTree = "<group>"; };
-		807E57CB1C57A3A7002B12B6 /* VCECollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCECollectionViewCell.m; sourceTree = "<group>"; };
 		807E57CE1C5848CB002B12B6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		807E57D01C584CA5002B12B6 /* AdressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdressAnnotation.h; sourceTree = "<group>"; };
-		807E57D11C584CA5002B12B6 /* AdressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdressAnnotation.m; sourceTree = "<group>"; };
+		807E57D01C584CA5002B12B6 /* VCEAdressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCEAdressAnnotation.h; sourceTree = "<group>"; };
+		807E57D11C584CA5002B12B6 /* VCEAdressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCEAdressAnnotation.m; sourceTree = "<group>"; };
 		807E57D31C585339002B12B6 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
+		80B93C361C58C11400705531 /* VCECellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCECellView.xib; sourceTree = "<group>"; };
+		80B93C6F1C58DD3C00705531 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80B93C711C58E03800705531 /* No1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No1.png; path = ../../../../Downloads/Nope/No1.png; sourceTree = "<group>"; };
+		80B93C721C58E03800705531 /* No2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No2.png; path = ../../../../Downloads/Nope/No2.png; sourceTree = "<group>"; };
+		80B93C731C58E03800705531 /* No3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No3.png; path = ../../../../Downloads/Nope/No3.png; sourceTree = "<group>"; };
+		80B93C741C58E03800705531 /* No4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No4.png; path = ../../../../Downloads/Nope/No4.png; sourceTree = "<group>"; };
+		80B93C751C58E03800705531 /* No5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No5.png; path = ../../../../Downloads/Nope/No5.png; sourceTree = "<group>"; };
+		80B93C761C58E03800705531 /* No6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No6.png; path = ../../../../Downloads/Nope/No6.png; sourceTree = "<group>"; };
+		80B93C771C58E03800705531 /* No7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No7.png; path = ../../../../Downloads/Nope/No7.png; sourceTree = "<group>"; };
+		80B93C781C58E03800705531 /* No8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No8.png; path = ../../../../Downloads/Nope/No8.png; sourceTree = "<group>"; };
+		80B93C811C58EB0200705531 /* VCECollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCECollectionViewController.h; sourceTree = "<group>"; };
+		80B93C821C58EB0200705531 /* VCECollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCECollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B93C701C58DD3C00705531 /* UIKit.framework in Frameworks */,
 				807E57CF1C5848CB002B12B6 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +121,7 @@
 		0426834B1C566F0800CDEEE1 /* ViewControllersFlow */ = {
 			isa = PBXGroup;
 			children = (
+				80B93C351C58C0FF00705531 /* Xib */,
 				80B93C241C585FDB00705531 /* Plist */,
 				807E57CD1C584870002B12B6 /* Frameworks */,
 				807E57C21C5796A1002B12B6 /* Images */,
@@ -133,8 +148,6 @@
 		042683761C5684A900CDEEE1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				807E57C71C57A141002B12B6 /* VCECollectionViewController.h */,
-				807E57C81C57A141002B12B6 /* VCECollectionViewController.m */,
 				042683731C5684A300CDEEE1 /* VCESplitDetailViewController.h */,
 				042683741C5684A300CDEEE1 /* VCESplitDetailViewController.m */,
 				0426836A1C567EC100CDEEE1 /* VCESplitViewController.h */,
@@ -153,12 +166,12 @@
 				807E57B61C578CBF002B12B6 /* VCERedViewController.m */,
 				807E57B81C578D23002B12B6 /* VCEYellowViewController.h */,
 				807E57B91C578D23002B12B6 /* VCEYellowViewController.m */,
-				807E57D01C584CA5002B12B6 /* AdressAnnotation.h */,
-				807E57D11C584CA5002B12B6 /* AdressAnnotation.m */,
+				807E57D01C584CA5002B12B6 /* VCEAdressAnnotation.h */,
+				807E57D11C584CA5002B12B6 /* VCEAdressAnnotation.m */,
 				807E57BB1C578EAB002B12B6 /* VCETabBarViewController.h */,
 				807E57BC1C578EAB002B12B6 /* VCETabBarViewController.m */,
-				807E57CA1C57A3A7002B12B6 /* VCECollectionViewCell.h */,
-				807E57CB1C57A3A7002B12B6 /* VCECollectionViewCell.m */,
+				80B93C811C58EB0200705531 /* VCECollectionViewController.h */,
+				80B93C821C58EB0200705531 /* VCECollectionViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -166,8 +179,14 @@
 		807E57C21C5796A1002B12B6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				807E57C31C579DAE002B12B6 /* bg_cork.png */,
-				807E57C51C579F4E002B12B6 /* stare-tekstury-vintage-grunge_19-113524.jpg */,
+				80B93C711C58E03800705531 /* No1.png */,
+				80B93C721C58E03800705531 /* No2.png */,
+				80B93C731C58E03800705531 /* No3.png */,
+				80B93C741C58E03800705531 /* No4.png */,
+				80B93C751C58E03800705531 /* No5.png */,
+				80B93C761C58E03800705531 /* No6.png */,
+				80B93C771C58E03800705531 /* No7.png */,
+				80B93C781C58E03800705531 /* No8.png */,
 				807E57BE1C579333002B12B6 /* mountain.png */,
 				807E57BF1C579333002B12B6 /* treasure_map.png */,
 			);
@@ -177,6 +196,7 @@
 		807E57CD1C584870002B12B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				80B93C6F1C58DD3C00705531 /* UIKit.framework */,
 				807E57CE1C5848CB002B12B6 /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -188,6 +208,14 @@
 				807E57D31C585339002B12B6 /* Locations.plist */,
 			);
 			name = Plist;
+			sourceTree = "<group>";
+		};
+		80B93C351C58C0FF00705531 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				80B93C361C58C11400705531 /* VCECellView.xib */,
+			);
+			name = Xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,13 +275,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B93C7D1C58E03800705531 /* No5.png in Resources */,
+				80B93C791C58E03800705531 /* No1.png in Resources */,
 				0426835C1C566F0800CDEEE1 /* LaunchScreen.storyboard in Resources */,
-				807E57C41C579DAE002B12B6 /* bg_cork.png in Resources */,
+				80B93C371C58C11400705531 /* VCECellView.xib in Resources */,
+				80B93C7A1C58E03800705531 /* No2.png in Resources */,
 				807E57C11C579333002B12B6 /* treasure_map.png in Resources */,
+				80B93C801C58E03800705531 /* No8.png in Resources */,
 				042683591C566F0800CDEEE1 /* Assets.xcassets in Resources */,
+				80B93C7C1C58E03800705531 /* No4.png in Resources */,
+				80B93C7E1C58E03800705531 /* No6.png in Resources */,
+				80B93C7B1C58E03800705531 /* No3.png in Resources */,
+				80B93C7F1C58E03800705531 /* No7.png in Resources */,
 				807E57C01C579333002B12B6 /* mountain.png in Resources */,
 				807E57D41C585339002B12B6 /* Locations.plist in Resources */,
-				807E57C61C579F4E002B12B6 /* stare-tekstury-vintage-grunge_19-113524.jpg in Resources */,
 				042683571C566F0800CDEEE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,14 +301,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				042683541C566F0800CDEEE1 /* VCEViewController.m in Sources */,
-				807E57D21C584CA5002B12B6 /* AdressAnnotation.m in Sources */,
-				807E57C91C57A141002B12B6 /* VCECollectionViewController.m in Sources */,
+				807E57D21C584CA5002B12B6 /* VCEAdressAnnotation.m in Sources */,
 				0426836C1C567EC100CDEEE1 /* VCESplitViewController.m in Sources */,
+				80B93C831C58EB0200705531 /* VCECollectionViewController.m in Sources */,
 				04D3ADFA1C56A782008B0295 /* VCEPageViewController.m in Sources */,
 				042683511C566F0800CDEEE1 /* VCEAppDelegate.m in Sources */,
 				042683691C56736800CDEEE1 /* VCEModalViewController.m in Sources */,
 				042683751C5684A300CDEEE1 /* VCESplitDetailViewController.m in Sources */,
-				807E57CC1C57A3A7002B12B6 /* VCECollectionViewCell.m in Sources */,
 				807E57BD1C578EAB002B12B6 /* VCETabBarViewController.m in Sources */,
 				807E57B71C578CBF002B12B6 /* VCERedViewController.m in Sources */,
 				042683651C5670B700CDEEE1 /* VCEBlueViewController.m in Sources */,
@@ -393,6 +427,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ViewControllersFlow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcinpedzimaz.labs.flightscope.ViewControllersFlow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

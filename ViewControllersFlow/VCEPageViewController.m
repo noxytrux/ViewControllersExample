@@ -59,8 +59,9 @@
 - (void)loadFirstController {
     
     UIViewController *first = [self viewControllerWithIndex:0];
+    UIViewController *second = [self viewControllerWithIndex:1];
    
-    [self setViewControllers:@[first]
+    [self setViewControllers:@[first,second]
                    direction:UIPageViewControllerNavigationDirectionForward
                     animated:NO
                   completion:nil];
