@@ -10,7 +10,7 @@
 #import <MapKit/MapKit.h>
 
 
-@interface AdressAnnotation : NSObject <MKAnnotation>
+@interface VCEAdressAnnotation : NSObject <MKAnnotation>
 
 @property (nonatomic,copy) NSString *title;
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;

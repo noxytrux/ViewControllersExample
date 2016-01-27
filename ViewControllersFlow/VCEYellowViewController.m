@@ -53,7 +53,7 @@
         cords.latitude = latitude.doubleValue;
         cords.longitude = longitude.doubleValue;
         
-    AdressAnnotation *adress = [[AdressAnnotation alloc]initWithTitle:title AndCoordinate:cords];
+    VCEAdressAnnotation *adress = [[VCEAdressAnnotation alloc]initWithTitle:title AndCoordinate:cords];
         [annontations addObject:adress];
     }
     
