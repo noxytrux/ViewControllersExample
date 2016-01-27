@@ -6,9 +6,9 @@
 //  Copyright © 2016 Marcin Małysz. All rights reserved.
 //
 
-#import "AdressAnnotation.h"
+#import "VCEAdressAnnotation.h"
 
-@implementation AdressAnnotation
+@implementation VCEAdressAnnotation
 
 -(id) initWithTitle:(NSString *) title AndCoordinate:(CLLocationCoordinate2D)coordinate
 
