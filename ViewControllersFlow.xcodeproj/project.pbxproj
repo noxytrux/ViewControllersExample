@@ -77,14 +77,14 @@
 		807E57D31C585339002B12B6 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
 		80B93C361C58C11400705531 /* VCECellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCECellView.xib; sourceTree = "<group>"; };
 		80B93C6F1C58DD3C00705531 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		80B93C711C58E03800705531 /* No1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No1.png; path = ../../../../Downloads/Nope/No1.png; sourceTree = "<group>"; };
-		80B93C721C58E03800705531 /* No2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No2.png; path = ../../../../Downloads/Nope/No2.png; sourceTree = "<group>"; };
-		80B93C731C58E03800705531 /* No3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No3.png; path = ../../../../Downloads/Nope/No3.png; sourceTree = "<group>"; };
-		80B93C741C58E03800705531 /* No4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No4.png; path = ../../../../Downloads/Nope/No4.png; sourceTree = "<group>"; };
-		80B93C751C58E03800705531 /* No5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No5.png; path = ../../../../Downloads/Nope/No5.png; sourceTree = "<group>"; };
-		80B93C761C58E03800705531 /* No6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No6.png; path = ../../../../Downloads/Nope/No6.png; sourceTree = "<group>"; };
-		80B93C771C58E03800705531 /* No7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No7.png; path = ../../../../Downloads/Nope/No7.png; sourceTree = "<group>"; };
-		80B93C781C58E03800705531 /* No8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = No8.png; path = ../../../../Downloads/Nope/No8.png; sourceTree = "<group>"; };
+		80B93C711C58E03800705531 /* No1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = No1.png; sourceTree = "<group>"; };
+		80B93C721C58E03800705531 /* No2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = No2.png; sourceTree = "<group>"; };
+		80B93C731C58E03800705531 /* No3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = No3.png; sourceTree = "<group>"; };
+		80B93C741C58E03800705531 /* No4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = No4.png; sourceTree = "<group>"; };
+		80B93C751C58E03800705531 /* No5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = No5.png; sourceTree = "<group>"; };
+		80B93C761C58E03800705531 /* No6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = No6.png; sourceTree = "<group>"; };
+		80B93C771C58E03800705531 /* No7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = No7.png; sourceTree = "<group>"; };
+		80B93C781C58E03800705531 /* No8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = No8.png; sourceTree = "<group>"; };
 		80B93C811C58EB0200705531 /* VCECollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCECollectionViewController.h; sourceTree = "<group>"; };
 		80B93C821C58EB0200705531 /* VCECollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCECollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
