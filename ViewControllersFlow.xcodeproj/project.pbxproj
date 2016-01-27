@@ -28,6 +28,9 @@
 		807E57C61C579F4E002B12B6 /* stare-tekstury-vintage-grunge_19-113524.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807E57C51C579F4E002B12B6 /* stare-tekstury-vintage-grunge_19-113524.jpg */; };
 		807E57C91C57A141002B12B6 /* VCECollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57C81C57A141002B12B6 /* VCECollectionViewController.m */; };
 		807E57CC1C57A3A7002B12B6 /* VCECollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57CB1C57A3A7002B12B6 /* VCECollectionViewCell.m */; };
+		807E57CF1C5848CB002B12B6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807E57CE1C5848CB002B12B6 /* MapKit.framework */; };
+		807E57D21C584CA5002B12B6 /* AdressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57D11C584CA5002B12B6 /* AdressAnnotation.m */; };
+		807E57D41C585339002B12B6 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 807E57D31C585339002B12B6 /* Locations.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +70,10 @@
 		807E57C81C57A141002B12B6 /* VCECollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCECollectionViewController.m; path = ../VCECollectionViewController.m; sourceTree = "<group>"; };
 		807E57CA1C57A3A7002B12B6 /* VCECollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCECollectionViewCell.h; sourceTree = "<group>"; };
 		807E57CB1C57A3A7002B12B6 /* VCECollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCECollectionViewCell.m; sourceTree = "<group>"; };
+		807E57CE1C5848CB002B12B6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		807E57D01C584CA5002B12B6 /* AdressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdressAnnotation.h; sourceTree = "<group>"; };
+		807E57D11C584CA5002B12B6 /* AdressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdressAnnotation.m; sourceTree = "<group>"; };
+		807E57D31C585339002B12B6 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807E57CF1C5848CB002B12B6 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +107,8 @@
 		0426834B1C566F0800CDEEE1 /* ViewControllersFlow */ = {
 			isa = PBXGroup;
 			children = (
+				80B93C241C585FDB00705531 /* Plist */,
+				807E57CD1C584870002B12B6 /* Frameworks */,
 				807E57C21C5796A1002B12B6 /* Images */,
 				042683761C5684A900CDEEE1 /* ViewControllers */,
 				0426834F1C566F0800CDEEE1 /* VCEAppDelegate.h */,
@@ -143,6 +153,8 @@
 				807E57B61C578CBF002B12B6 /* VCERedViewController.m */,
 				807E57B81C578D23002B12B6 /* VCEYellowViewController.h */,
 				807E57B91C578D23002B12B6 /* VCEYellowViewController.m */,
+				807E57D01C584CA5002B12B6 /* AdressAnnotation.h */,
+				807E57D11C584CA5002B12B6 /* AdressAnnotation.m */,
 				807E57BB1C578EAB002B12B6 /* VCETabBarViewController.h */,
 				807E57BC1C578EAB002B12B6 /* VCETabBarViewController.m */,
 				807E57CA1C57A3A7002B12B6 /* VCECollectionViewCell.h */,
@@ -160,6 +172,22 @@
 				807E57BF1C579333002B12B6 /* treasure_map.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		807E57CD1C584870002B12B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				807E57CE1C5848CB002B12B6 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80B93C241C585FDB00705531 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				807E57D31C585339002B12B6 /* Locations.plist */,
+			);
+			name = Plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +252,7 @@
 				807E57C11C579333002B12B6 /* treasure_map.png in Resources */,
 				042683591C566F0800CDEEE1 /* Assets.xcassets in Resources */,
 				807E57C01C579333002B12B6 /* mountain.png in Resources */,
+				807E57D41C585339002B12B6 /* Locations.plist in Resources */,
 				807E57C61C579F4E002B12B6 /* stare-tekstury-vintage-grunge_19-113524.jpg in Resources */,
 				042683571C566F0800CDEEE1 /* Main.storyboard in Resources */,
 			);
@@ -237,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				042683541C566F0800CDEEE1 /* VCEViewController.m in Sources */,
+				807E57D21C584CA5002B12B6 /* AdressAnnotation.m in Sources */,
 				807E57C91C57A141002B12B6 /* VCECollectionViewController.m in Sources */,
 				0426836C1C567EC100CDEEE1 /* VCESplitViewController.m in Sources */,
 				04D3ADFA1C56A782008B0295 /* VCEPageViewController.m in Sources */,

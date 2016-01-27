@@ -127,9 +127,23 @@
                     <view key="view" contentMode="scaleToFill" id="VU3-22-bkn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YLs-gN-sUq">
+                                <rect key="frame" x="16" y="64" width="288" height="504"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" red="0.92324929971988801" green="0.81076329755495113" blue="0.018603431402754774" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="YLs-gN-sUq" firstAttribute="leading" secondItem="VU3-22-bkn" secondAttribute="leadingMargin" id="3us-5v-7LU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YLs-gN-sUq" secondAttribute="trailing" id="M2L-bF-cT8"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="YLs-gN-sUq" secondAttribute="bottom" id="dIK-Lo-HuE"/>
+                            <constraint firstItem="YLs-gN-sUq" firstAttribute="top" secondItem="1mM-22-CZF" secondAttribute="bottom" id="q9U-kt-YJ0"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" id="idg-NU-Jx0"/>
+                    <connections>
+                        <outlet property="myMapView" destination="YLs-gN-sUq" id="fnV-ow-SAE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Jq-od-ir2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -162,6 +176,7 @@
                             <constraint firstItem="xzA-dg-Lhd" firstAttribute="top" secondItem="sfa-eh-bHv" secondAttribute="topMargin" id="JEr-kq-kvb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xzA-dg-Lhd" secondAttribute="trailing" id="KAE-DD-2wj"/>
                             <constraint firstItem="xzA-dg-Lhd" firstAttribute="leading" secondItem="sfa-eh-bHv" secondAttribute="leadingMargin" id="LMc-gf-PWf"/>
+                            <constraint firstItem="DSX-4S-fMO" firstAttribute="top" secondItem="xzA-dg-Lhd" secondAttribute="bottom" id="sqE-dK-Nxa"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" id="xUb-wK-jp0"/>
