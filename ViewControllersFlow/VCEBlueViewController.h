@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
 
-@interface VCEBlueViewController : UIViewController
+@interface VCEBlueViewController : UIViewController <MFMailComposeViewControllerDelegate>
+
+
 
 @end

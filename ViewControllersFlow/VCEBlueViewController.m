@@ -39,7 +39,10 @@
     
     if ( [MFMailComposeViewController canSendMail] ) {
         
+          
+        
         MFMailComposeViewController *mail = [[MFMailComposeViewController alloc] init];
+        mail.mailComposeDelegate = self;
         [mail setSubject:@"Subject"];
         [mail setMessageBody:@"Some email message" isHTML:NO];
         [mail setToRecipients:@[@"developer@flightscope.com"]];
@@ -69,6 +72,14 @@
         NSLog(@"This device cannot send SMS");
     }
     
+}
+
+- (void)mailComposeController:(MFMailComposeViewController*)controller
+          didFinishWithResult:(MFMailComposeResult)result
+                        error:(NSError*)error
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+    return;
 }
 
 
