@@ -125,7 +125,7 @@
         <!--Blue View Controller-->
         <scene sceneID="vVR-Fo-LgM">
             <objects>
-                <viewController id="BD8-d1-rXw" customClass="BlueViewController" sceneMemberID="viewController">
+                <viewController id="BD8-d1-rXw" customClass="VCEBlueViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ort-9I-H0y"/>
                         <viewControllerLayoutGuide type="bottom" id="atB-Ud-5is"/>
