@@ -12,7 +12,7 @@
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Warszawa</string>
+		<string>Warsaw</string>
 		<key>Latitude</key>
 		<real>52.2297</real>
 		<key>Longitude</key>
@@ -28,7 +28,7 @@
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Moskwa</string>
+		<string>Moscow</string>
 		<key>Latitude</key>
 		<real>55.7496</real>
 		<key>Longitude</key>
@@ -36,7 +36,7 @@
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Paryz</string>
+		<string>Paris</string>
 		<key>Latitude</key>
 		<real>48.8566</real>
 		<key>Longitude</key>

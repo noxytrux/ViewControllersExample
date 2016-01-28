@@ -19,6 +19,7 @@
     [super viewDidLoad];
     
     self.tableView.delegate = self;
+    
     self.tableView.dataSource = self;
     
     self.items = [[NSMutableArray alloc] initWithArray:@[ @"Detail VC",
@@ -39,7 +40,6 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
     return self.items.count;
-    
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -61,6 +61,7 @@
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
 
     cell.backgroundColor = [UIColor clearColor];
+    
     cell.contentView.backgroundColor = [UIColor clearColor];
 }
 
@@ -71,11 +72,15 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
-    NSArray *segues = @[@"NormalDetail", @"TabBarDetail", @"PageDetail", @"SplitDetail" , @"CollectionDetail"];
+    NSArray *segues = @[@"NormalDetail",
+                        @"TabBarDetail",
+                        @"PageDetail",
+                        @"SplitDetail",
+                        @"CollectionDetail"];
 
     [self performSegueWithIdentifier:segues[indexPath.row]
+     
                               sender:self];
 }
-
 
 @end

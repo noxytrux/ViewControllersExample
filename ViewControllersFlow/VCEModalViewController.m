@@ -18,6 +18,7 @@
     [super viewDidLoad];
 
     self.navigationItem.title = @"Modal View";
+    
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
                                                                                           target:self
                                                                                           action:@selector(dismissViewController)];

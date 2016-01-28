@@ -20,7 +20,6 @@
     if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone) {
     
         self.delegate = self;
-    
     }
 }
 
@@ -29,8 +28,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (BOOL)splitViewController:(UISplitViewController *)splitViewController
-collapseSecondaryViewController:(UIViewController *)secondaryViewController
+- (BOOL)splitViewController:(UISplitViewController *)splitViewController collapseSecondaryViewController:(UIViewController *)secondaryViewController
   ontoPrimaryViewController:(UIViewController *)primaryViewController {
 
     return YES;

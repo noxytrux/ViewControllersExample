@@ -26,12 +26,12 @@
                                                    green:((CGFloat)(arc4random()%255)/255.0)
                                                     blue:((CGFloat)(arc4random()%255)/255.0)
                                                    alpha:1.0]];
-        
-    }
+        }
     
     UIPageControl *pageIndicator = [UIPageControl appearanceWhenContainedInInstancesOfClasses:@[[UIPageViewController class]]];
     
     pageIndicator.pageIndicatorTintColor = [UIColor grayColor];
+    
     pageIndicator.currentPageIndicatorTintColor = [UIColor whiteColor];
 
     [self reloadCache];
@@ -42,12 +42,14 @@
 - (void)didReceiveMemoryWarning {
     
     [super didReceiveMemoryWarning];
+    
     [self reloadCache];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     
     [super viewWillAppear:animated];
+    
     [self loadFirstController];
 }
 
@@ -59,6 +61,7 @@
 - (void)loadFirstController {
     
     UIViewController *first = [self viewControllerWithIndex:0];
+    
     UIViewController *second = [self viewControllerWithIndex:1];
    
     [self setViewControllers:@[first,second]
@@ -77,6 +80,7 @@
     }
     
     cachedController = [[UIViewController alloc] initWithNibName:nil bundle:nil];
+    
     cachedController.view.backgroundColor = self.colorItems[index];
 
     //NO Don't do this like that it's only for the sake of example! :D
@@ -99,7 +103,7 @@
     
     index--;
     
-    if (index < 0) {
+        if (index < 0) {
     
         return nil;
     }
@@ -115,7 +119,7 @@
     
     index++;
     
-    if (index >= self.colorItems.count) {
+        if (index >= self.colorItems.count) {
     
         return nil;
     }
@@ -138,9 +142,12 @@
 - (void)manageNavigationBar:(NSInteger)index {
     
     if (index == 0 || index == 9) {
+        
         [self.navigationController setNavigationBarHidden:NO animated:YES];
     }
+    
     else {
+        
         [self.navigationController setNavigationBarHidden:YES animated:YES];
     }
 

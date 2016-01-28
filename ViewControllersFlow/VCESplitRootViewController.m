@@ -25,8 +25,11 @@
                                                                                           target:self
                                                                                           action:@selector(dismissViewController)];
     
-    self.items = @[@"First", @"Second", @"Third", @"Fourth", @"Fifth"];
-    
+    self.items = @[@"First",
+                   @"Second",
+                   @"Third",
+                   @"Fourth",
+                   @"Fifth"];
 }
 
 - (void)dismissViewController {
@@ -38,6 +41,7 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
 }
 
 #pragma mark - Table view data source
@@ -48,6 +52,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    
     return 5;
 }
 
@@ -64,13 +69,13 @@
     
     NSIndexPath *path = (NSIndexPath *)sender;
     
-    if ([segue.identifier isEqualToString:@"showSegue"] == YES) {
+        if ([segue.identifier isEqualToString:@"showSegue"] == YES) {
         
-        VCESplitDetailViewController *detail = (VCESplitDetailViewController*)segue.destinationViewController;
+            VCESplitDetailViewController *detail = (VCESplitDetailViewController*)segue.destinationViewController;
         
-        __unused UIView *loadView = detail.view;
+            __unused UIView *loadView = detail.view;
         
-        detail.detailInfoLabel.text = self.items[path.row];
+            detail.detailInfoLabel.text = self.items[path.row];
     }
 }
 
@@ -78,10 +83,10 @@
 
     NSInteger count = self.splitViewController.viewControllers.count;
     
-    if (count == 1) {
+        if (count == 1) {
    
-        [self performSegueWithIdentifier:@"showSegue" sender:indexPath];
-        
+            [self performSegueWithIdentifier:@"showSegue" sender:indexPath];
+    
         return;
     }
     

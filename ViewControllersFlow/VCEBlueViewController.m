@@ -17,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,9 +26,10 @@
 - (IBAction)didPressShowModalView:(id)sender {
     
     VCEModalViewController *modal = [[VCEModalViewController alloc] initWithNibName:nil bundle:nil];
+    
     UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:modal];
     
-    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
+        if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
     
         nvc.modalPresentationStyle = UIModalPresentationFormSheet;
     }

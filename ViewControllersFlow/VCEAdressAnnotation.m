@@ -10,9 +10,7 @@
 
 @implementation VCEAdressAnnotation
 
--(id) initWithTitle:(NSString *) title AndCoordinate:(CLLocationCoordinate2D)coordinate
-
-{
+-(id) initWithTitle:(NSString *) title AndCoordinate:(CLLocationCoordinate2D)coordinate {
     
     self = [super init];
     
@@ -21,6 +19,6 @@
     _coordinate = coordinate;
     
     return self;
-    
 }
+
 @end

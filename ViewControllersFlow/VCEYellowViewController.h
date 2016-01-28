@@ -12,8 +12,6 @@
 
 @interface VCEYellowViewController : UIViewController
 
-
 @property (strong, nonatomic) IBOutlet MKMapView *myMapView;
-
 
 @end

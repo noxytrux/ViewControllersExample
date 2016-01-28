@@ -27,7 +27,6 @@
 		807E57CF1C5848CB002B12B6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807E57CE1C5848CB002B12B6 /* MapKit.framework */; };
 		807E57D21C584CA5002B12B6 /* VCEAdressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57D11C584CA5002B12B6 /* VCEAdressAnnotation.m */; };
 		807E57D41C585339002B12B6 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 807E57D31C585339002B12B6 /* Locations.plist */; };
-		80B93C371C58C11400705531 /* VCECellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B93C361C58C11400705531 /* VCECellView.xib */; };
 		80B93C701C58DD3C00705531 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B93C6F1C58DD3C00705531 /* UIKit.framework */; };
 		80B93C791C58E03800705531 /* No1.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B93C711C58E03800705531 /* No1.png */; };
 		80B93C7A1C58E03800705531 /* No2.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B93C721C58E03800705531 /* No2.png */; };
@@ -75,7 +74,6 @@
 		807E57D01C584CA5002B12B6 /* VCEAdressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCEAdressAnnotation.h; sourceTree = "<group>"; };
 		807E57D11C584CA5002B12B6 /* VCEAdressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCEAdressAnnotation.m; sourceTree = "<group>"; };
 		807E57D31C585339002B12B6 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
-		80B93C361C58C11400705531 /* VCECellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCECellView.xib; sourceTree = "<group>"; };
 		80B93C6F1C58DD3C00705531 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		80B93C711C58E03800705531 /* No1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = No1.png; sourceTree = "<group>"; };
 		80B93C721C58E03800705531 /* No2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = No2.png; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 		0426834B1C566F0800CDEEE1 /* ViewControllersFlow */ = {
 			isa = PBXGroup;
 			children = (
-				80B93C351C58C0FF00705531 /* Xib */,
 				80B93C241C585FDB00705531 /* Plist */,
 				807E57CD1C584870002B12B6 /* Frameworks */,
 				807E57C21C5796A1002B12B6 /* Images */,
@@ -210,14 +207,6 @@
 			name = Plist;
 			sourceTree = "<group>";
 		};
-		80B93C351C58C0FF00705531 /* Xib */ = {
-			isa = PBXGroup;
-			children = (
-				80B93C361C58C11400705531 /* VCECellView.xib */,
-			);
-			name = Xib;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -278,7 +267,6 @@
 				80B93C7D1C58E03800705531 /* No5.png in Resources */,
 				80B93C791C58E03800705531 /* No1.png in Resources */,
 				0426835C1C566F0800CDEEE1 /* LaunchScreen.storyboard in Resources */,
-				80B93C371C58C11400705531 /* VCECellView.xib in Resources */,
 				80B93C7A1C58E03800705531 /* No2.png in Resources */,
 				807E57C11C579333002B12B6 /* treasure_map.png in Resources */,
 				80B93C801C58E03800705531 /* No8.png in Resources */,
@@ -426,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ViewControllersFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcinpedzimaz.labs.flightscope.ViewControllersFlow;
@@ -438,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ViewControllersFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcinpedzimaz.labs.flightscope.ViewControllersFlow;
 				PRODUCT_NAME = "$(TARGET_NAME)";

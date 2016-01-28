@@ -17,10 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [[self.tabBar.items objectAtIndex:0] setTitle:@"Area"];
     
-     [[self.tabBar.items objectAtIndex:0] setTitle:@"Area"];
     [[self.tabBar.items objectAtIndex:0] setImage:[UIImage imageNamed:@"mountain.png"]];
-     [[self.tabBar.items objectAtIndex:1] setTitle:@"Map"];
+    
+    [[self.tabBar.items objectAtIndex:1] setTitle:@"Map"];
+    
     [[self.tabBar.items objectAtIndex:1] setImage:[UIImage imageNamed:@"treasure_map.png"]];
    }
 
@@ -28,9 +30,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
-
 
 /*
 #pragma mark - Navigation

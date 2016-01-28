@@ -19,9 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.arrayOfDate = @[@"Berlin" , @"Barcelona" , @"Warszawa" , @"Paryz" , @"Moskwa"];
-    
-    
+    self.arrayOfDate = @[@"Berlin",
+                         @"Barcelona",
+                         @"Warsaw",
+                         @"Paris",
+                         @"Moscow"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,24 +31,25 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
     return [self.arrayOfDate count];
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
     static NSString *simpleTableIdentifier = @"SimpleTableItem";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
     
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
+        if (cell == nil) {
+            
+            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
     }
     
     cell.textLabel.text = [self.arrayOfDate objectAtIndex:indexPath.row];
+    
     return cell;
 }
+
 @end
